@@ -24,7 +24,7 @@ a = person("Marquise","Chicago","1234567","Mcago@email.com")
 address_book.append(a)
 
 for p in address_book:
-    if(type(a).__name__ == "person"):
+    if(type(p).__name__ == "person"):
         print(p.name)
         print(" address:"+p.address)
         print(" number:"+p.number)
