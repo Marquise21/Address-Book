@@ -36,7 +36,7 @@ class person:
 def create_person():
     name = input('Please enter a name:')
     address = input('Please enter an address:')
-    number = input('Please enter a phond number:')
+    number = input('Please enter a phone number:')
     email = input('Please enter an email:')
     p = person(name,address,number,email)
     return p
